@@ -36,7 +36,7 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
                 payment_method_types: ["card"],
                 customer_email: email,
                 mode: "payment",
-                success_url: "https://velvety-fudge-197a0b.netlify.app/checkout/success",
+                success_url: "https://velvety-fudge-197a0b.netlify.app/order/success",
                 cancel_url:"https://velvety-fudge-197a0b.netlify.app",
                 line_items: lineItems,
             });  
